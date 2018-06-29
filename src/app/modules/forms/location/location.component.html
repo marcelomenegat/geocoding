@@ -1,0 +1,21 @@
+<div class="formBox">
+
+  <div class="formContent">
+
+    <div class="headerBox"></div>
+
+    <form class="locForm" >
+      <div class="form-group">
+        <input type="text" class="form-control" id="address" name="address" (focusout)="getLocByAddress()" placeholder="Address" [(ngModel)]="addressData.address" required>        
+      </div>
+      <div class="form-group"> 
+        <input type="text" class="form-control" id="latInput"  name="latitude" placeholder="Latitude" disabled [(ngModel)]="addressData.latitude">
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control" id="longInput" name="longitude" placeholder="Longitude" disabled [(ngModel)]="addressData.longitude">
+      </div>
+    </form>
+
+  </div>
+
+</div>

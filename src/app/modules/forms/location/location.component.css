@@ -1,0 +1,38 @@
+.formBox {
+    position: absolute;        
+    box-sizing: border-box;
+    display: table;    
+    width: 100%;
+    height: 100%;   
+    display: table;
+    margin: 15% auto;
+}
+
+
+.formContent {        
+    display: table;
+    background-color: #fff;
+    border: 1px solid #00000033;
+    border-radius: .4rem;
+    outline: 0;
+    vertical-align: middle;
+    margin: auto;    
+}
+
+
+.locForm {
+    width: 80rem;
+    align-self: center;
+    padding: 1.5rem 0 2rem 0;
+    margin-top: 1rem;
+    border-top: 1px solid #00000033;    
+}
+
+.headerBox {
+    height: 5rem;
+}
+
+.form-group {
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
